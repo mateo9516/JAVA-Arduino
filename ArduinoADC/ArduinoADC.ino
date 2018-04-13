@@ -11,7 +11,7 @@ void setup() {
   //Iniciamos la comunicación con el puerto serie
   Serial.begin(9600);
 }
-
+//////
 void loop() {
   //Se crea la variable que contendrá el mensaje a imprimir
   String output = "Dato capturado";
