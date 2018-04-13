@@ -14,10 +14,10 @@ void setup() {
 //////
 void loop() {
   //Se crea la variable que contendrá el mensaje a imprimir
-  String output = "Dato capturado";
+  String output = "";
   //Se concatena el valor del contador al mensaje
   int  value = analogRead(0);
-  value = map(value,0,1023,0,1024);
+  value = map(value,0,1023,0,500);
   analogWrite(0,value);
   delay(1);
   output += value;
